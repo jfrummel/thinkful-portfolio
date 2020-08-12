@@ -7,10 +7,15 @@ body {
 
 hr {
     width: 50%;
+    background-color: darkslategrey;
 }
 
-p, ul {
+p, ul, ol {
     font-size: 20px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 a {
@@ -83,16 +88,47 @@ header nav a {
     margin-bottom: 20px;
 }
 
-.intro-text h3 {
-    font-size: 28px;
+.image {
+    margin: auto;
 }
 
 .headshot {
     width: 250px;
     height: 350px;
-    margin-left: 10px;
     border-radius: 50%;
 }
 
 /* About me section */
 
+.about {
+    text-align: center;
+    padding: 25px;
+}
+
+/* contact section */
+
+.contact {
+    text-align: center;
+    padding: 25px;
+}
+
+ol {
+    margin-left: 45%;
+}
+
+ol li {
+    width: 25px;
+}
+
+/* footer */
+
+footer {
+    background-color: #0B4F62;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 30px;
+    font-size: 16px;
+}
