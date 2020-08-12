@@ -6,26 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
     type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>JR Portfolio</title>
 </head>
 
 <body>
   <!-- header and nav -->
-  <header id="home">
+  <header class="top-nav" id="home">
     <h1>Jeremy Rummel</h1>
     <h2>Software Developer</h2>
-    <nav>
+    <!-- <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
-    </nav>
+    </nav> -->
   </header>
   <main>
 
     <!-- Introduction -->
-    <div>
-      <section>
+    <section class="intro-section">
+      <img class="headshot" src="./images/headshot.jfif" alt="Profile Pic">
+      <div class="intro-text">
         <h3>Hello! I'm Jeremy</h3>
         <p>I am a software developer living near Des Moines, IA.</p>
         <p>With previous experience as a paramedic, I utilize my experiences to:
@@ -35,13 +37,13 @@
           <li>Collaborate with other developers.</li>
         </ul>
         </p>
-      </section>
-    </div>
+      </div>
+    </section>
     <hr />
 
     <!-- About Me -->
-    <div id="about">
-      <section>
+    <section>
+      <div id="about">
         <h3>About Me</h3>
         <p>After graduating from Grand View University with a B.A. in Liberal Arts, I worked in the agricultural
           biotechnology and medical fields.
@@ -55,21 +57,22 @@
         <br>
         <p>Outside of developing web applications, I enjoy playing guitar, listening to music and playing sports with my
           son and daughter.</p>
-      </section>
-    </div>
+      </div>
+    </section>
     <hr />
 
     <!-- Contact Me -->
-    <div id="contact">
-      <section>
-        <h3>Contact Me</h3>
-        <p>Please contact and follow me!</p>
-        <ol>
-          <li><a href="https://github.com/jfrummel" target="_blank">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/jeremy-rummel-73ab3356/" target="_blank">LinkedIn</a></li>
-        </ol>
-      </section>
-    </div>
+
+    <section>
+      <div id="contact"></div>
+      <h3>Contact Me</h3>
+      <p>Please contact and follow me!</p>
+      <ol>
+        <li><a href="https://github.com/jfrummel" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/jeremy-rummel-73ab3356/" target="_blank">LinkedIn</a></li>
+      </ol>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
