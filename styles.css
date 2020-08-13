@@ -84,7 +84,7 @@ header nav a {
 
 .intro-text {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-bottom: 20px;
 }
 
@@ -103,6 +103,11 @@ header nav a {
 .about {
     text-align: center;
     padding: 25px;
+}
+
+.about-text {
+    margin: auto;
+    width: 500px;
 }
 
 /* contact section */
